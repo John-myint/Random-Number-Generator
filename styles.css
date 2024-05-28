@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#randomNumber {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: white;
+}
